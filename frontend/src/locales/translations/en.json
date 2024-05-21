@@ -1,0 +1,13 @@
+{
+  "signUp": "Sign Up",
+  "username": "Username",
+  "email": "E-mail",
+  "password": "Password",
+  "passwordRepeat": "Password Repeat",
+  "passwordMismatch": "Password mismatch",
+  "genericError": "Unexpected error occured. Please try again",
+  "userNotFoundError": "User not found",
+  "login": "Login",
+  "There are no hoaxes":"There are no hoaxes",
+  "Load old hoaxes":"Load old hoaxes"
+}
