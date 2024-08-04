@@ -132,3 +132,78 @@ If you wish to contribute, please follow these steps:
 ## License
 
 This project is licensed under the MIT License. For more information, see the [LICENSE](./LICENSE) file.
+# Hoaxify Frontend Project
+
+![React](https://img.shields.io/badge/React-17.0.2-brightgreen)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-blue)
+![Material-UI](https://img.shields.io/badge/Material%20UI-5.2.0-blue)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
+Hoaxify Frontend is a React-based web application designed to provide an intuitive and interactive user experience for the Hoaxify platform. The project integrates seamlessly with backend services and utilizes modern frontend technologies to deliver a responsive and user-friendly interface.
+
+## Table of Contents
+
+- [Setup](#setup)
+  - [Requirements](#requirements)
+  - [Steps](#steps)
+- [Usage](#usage)
+  - [Running the Application](#running-the-application)
+  - [Development Mode](#development-mode)
+  - [Building for Production](#building-for-production)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Setup
+
+To set up the project on your local machine, follow these steps:
+
+### Requirements
+
+- **Node.js**: Version 14.x or higher. Node.js is a JavaScript runtime built on Chrome's V8 engine.
+- **npm or Yarn**: Package managers for JavaScript. npm comes bundled with Node.js, but you can also use Yarn if preferred.
+- **Git**: Version control system for cloning the repository.
+
+### Steps
+
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/abdullahaydogan/Hoaxify.git
+    cd Hoaxify/frontend
+    ```
+
+2. **Install Dependencies**:
+    Install the required packages listed in `package.json` using npm:
+    ```bash
+    npm install
+    ```
+    Alternatively, if you're using Yarn, you can install dependencies with:
+    ```bash
+    yarn install
+    ```
+
+3. **Configure Environment Variables**:
+    Create a `.env` file in the root of the `frontend` directory and add necessary environment variables:
+    ```bash
+    REACT_APP_API_URL=http://localhost:8080/api
+    ```
+    Adjust the `REACT_APP_API_URL` to point to your backend API.
+
+4. **Start the Development Server**:
+    Launch the application in development mode, which enables hot reloading and source map support:
+    ```bash
+    npm start
+    ```
+    This command starts the development server and opens the application in your default web browser. Any changes you make to the source code will automatically reload the page. If the application does not open automatically, navigate to `http://localhost:3000`.
+
+5. **Open the Application**:
+    The application will be accessible at `http://localhost:3000` in your web browser.
+
+## Usage
+
+### Running the Application
+
+To run the application in development mode, use the following command:
+```bash
+npm start
+
