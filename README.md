@@ -46,7 +46,7 @@ Follow these steps to run the project on your local machine:
 
 3. Configure the database: Edit the `src/main/resources/application.properties` file to set up your database configuration.
     ```properties
-    spring.datasource.url=jdbc:mysql://localhost:3306/muhtas2
+    spring.datasource.url=jdbc:mysql://localhost:3306/****
     spring.datasource.username=root
     spring.datasource.password=yourpassword
     spring.jpa.hibernate.ddl-auto=update
