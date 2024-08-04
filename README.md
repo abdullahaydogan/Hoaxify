@@ -1,4 +1,4 @@
-# Muhtas-2 Backend Project
+# Hoaxify Backend Project
 
 ![Java](https://img.shields.io/badge/Java-17-brightgreen)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.6.4-brightgreen)
